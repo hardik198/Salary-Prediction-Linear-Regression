@@ -1,0 +1,40 @@
+# Go to your project folder
+cd "C:\Users\panch\Data Science Course\Salary-Prediction-Linear-Regression"
+
+# Configure Git (only once on your computer)
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+# Initialize Git
+git init
+
+# Check project status
+git status
+
+# Add all project files
+git add .
+
+# Commit the files
+git commit -m "Initial commit"
+
+# Rename the branch to main
+git branch -M main
+
+# Remove old remote (if it already exists)
+git remote remove origin
+
+# Add your GitHub repository
+git remote add origin https://github.com/YOUR_USERNAME/Salary-Prediction-Linear-Regression.git
+
+# Verify the remote
+git remote -v
+
+# Push the project to GitHub
+git push -u origin main
+
+#After making changes in the future
+#Whenever you update your project, you only need these three commands:
+
+git add .
+git commit -m "Describe your changes"
+git push
